@@ -7,8 +7,6 @@
     loader: 'akamai',
     path: "",
   },
-  basePath: "/aaug1-website",
-  assetPrefix: "/aaug1-website/",
 };
 
 module.exports = {
