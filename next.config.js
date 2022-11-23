@@ -14,12 +14,8 @@
 module.exports = {
   async rewrites() {
     return {
-      beforeFiles: [
-        {
-          source: `/aaug1-website/images/:path*`,
-          destination: '/images/:path*'
-         },
-      ]
+        source: `/aaug1-website/images/:path*`,
+        destination: '/images/:path*'
     }
   },
   nextConfig};
