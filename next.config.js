@@ -11,4 +11,13 @@
   assetPrefix: "/aaug1-website/",
 };
 
-module.exports = nextConfig;
+module.exports = {
+  async rewrites() {
+    return [
+      {
+       source: `/aaug1-website/_next/data/:path*`,
+       destination: '/_next/data/:path*'
+      },
+    ]
+  },
+  nextConfig};
