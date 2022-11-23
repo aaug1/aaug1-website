@@ -16,12 +16,12 @@ module.exports = {
     return {
       beforeFiles: [
         {
-          source: `/aaug1-website/_next/static/:path*`,
-          destination: '/_next/static/:path*'
+          source: `/_next/static/:path*`,
+          destination: '/aaug1-website/_next/static/:path*'
          },
          {
-          source: `/aaug1-website/images/:path*`,
-          destination: '/images/:path*'
+          source: `/images/:path*`,
+          destination: '/aaug1-website/images/:path*'
          },
       ]
     }
