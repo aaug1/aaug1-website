@@ -6,7 +6,8 @@
     loader: 'akamai',
     path: '',
   },
-  assetPrefix: './',
+  basePath: "./out",
+  assetPrefix: './out',
 };
 
 export default nextConfig;
