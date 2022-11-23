@@ -7,6 +7,8 @@
     loader: 'akamai',
     path: "",
   },
+  basePath: "/aaug1-website",
+  assetPath: "/aaug1-website/"
 };
 
 module.exports = {
@@ -14,8 +16,8 @@ module.exports = {
     return {
       beforeFiles: [
         {
-          source: `/my-app-namespace/_next/data/:path*`,
-          destination: '/_next/data/:path*'
+          source: `/aaug1-website/images/:path*`,
+          destination: '/images/:path*'
          },
       ]
     }
