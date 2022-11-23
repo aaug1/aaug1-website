@@ -11,7 +11,9 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
+    if (node) {
+      return node.scrollTo({ left, behavior: 'smooth' });
+    }
   }
 
   const handleClick = (e, i) => {
@@ -44,6 +46,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         My journey so far...{TimeLineData.text}

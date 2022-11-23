@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       I am a senior at Johns Hopkins University, majoring in Computer Science and Biomedical Engineering
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}> Learn More </Button>
+      <Button onClick={() => window.location = "https://drive.google.com/file/d/1Lrir-Y9JCRFLL522e_XOg_6jal0Ke-Cl/view?usp=sharing"}> CV </Button>
     </LeftSection>
 
   </Section>
