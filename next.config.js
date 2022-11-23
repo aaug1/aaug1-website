@@ -11,11 +11,13 @@
 
 module.exports = {
   async rewrites() {
-    return [
-      {
-       source: `/aaug1-website/_next/data/:path*`,
-       destination: '/_next/data/:path*'
-      },
-    ]
+    return {
+      beforeFiles: [
+        {
+          source: `/my-app-namespace/_next/data/:path*`,
+          destination: '/_next/data/:path*'
+         },
+      ]
+    }
   },
   nextConfig};
