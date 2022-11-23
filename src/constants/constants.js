@@ -39,7 +39,7 @@ export const projects = [
     title: 'Bloo Chat',
     description: "A simple realtime messaging application build with Node, Express, and Socket.io.",
     image: '/images/bloo_chat.png',
-    tags: ['Node', 'Express', 'Socket.io', 'MongoDB', 'JavaScript', 'React'],
+    tags: ['Node', 'Express', 'Socket.io', 'MongoDB', 'React'],
     source: 'https://github.com/cs280spring-classroom/bloo-chat-aaug1',
     visit: 'https://bloo-chat-aaug1.herokuapp.com/',
     id: 3,
@@ -47,9 +47,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: "2019 Fall", text: 'Enrolled in JHU in the Biomedical Engineering Program'},
+  { year: "2020 Summer", text: 'Worked at MediBeacon as an R&D Intern', },
+  { year: "2021 Spring", text: 'Declared Computer Science Second Major', },
+  { year: "2022 Summer", text: 'Worked at MediBeacon as a Medical Device Intern and ContrastAI as ML Engineer'},
+  { year: "2022 Summer", text: 'Working at ContrastAI as a Full-Stack Engineer'}
 ];
