@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Theme from '../styles/theme';
 
 const useInterceptNextDataHref = ({
